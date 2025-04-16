@@ -6,5 +6,5 @@ export default defineStackbitConfig({
     ssgName: 'custom',
     contentSources: [],
     postInstallCommand: 'npm i --no-save @stackbit/types serve',
-    devCommand: 'npx serve -l 8000 .'
+    devCommand: 'npx serve -l 3000 .'
 });
