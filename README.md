@@ -7,7 +7,7 @@ No coding skills are required to update the content!
 
 ---
 
-## 🚀 How to Edit the Website
+## 👨‍💻 How to Edit the Website
 
 ### Option 1: Using Stackbit (Recommended for non-developers)
 1. Go to [https://app.stackbit.com](https://app.stackbit.com)
@@ -33,9 +33,5 @@ If you’re comfortable using GitHub:
 - `assets/images/` – Logos, team photos, etc.
 
 ---
-
-## 👥 Maintainers
-
-This site is maintained by student members. If you're new to the team, feel free to reach out to the current webmaster or check the Stackbit editor!
 
 
