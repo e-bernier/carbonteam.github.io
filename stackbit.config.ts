@@ -1,10 +1,10 @@
 import { defineStackbitConfig } from '@stackbit/types';
 
 export default defineStackbitConfig({
-    stackbitVersion: '~0.6.0',
-    nodeVersion: '18',
-    ssgName: 'custom',
-    contentSources: [],
-    postInstallCommand: 'npm i --no-save @stackbit/types serve',
-    devCommand: 'npx serve -l 8000 .'
+  stackbitVersion: '~0.6.0',
+  nodeVersion: '18',
+  ssgName: 'custom',
+  contentSources: [],
+  postInstallCommand: 'npm i --no-save @stackbit/types serve',
+  devCommand: 'npx serve -s -l 3000 .'
 });
