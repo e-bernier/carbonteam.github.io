@@ -1,0 +1,17 @@
+stackbitVersion: ~0.6.0
+nodeVersion: "18"
+ssgName: custom
+
+models:
+  - name: page
+    label: Page
+    file: "*.{html}"
+    type: page
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: string
+        markdown: false
