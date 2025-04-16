@@ -6,5 +6,5 @@ export default defineStackbitConfig({
   ssgName: 'custom',
   contentSources: [],
   postInstallCommand: 'npm i --no-save @stackbit/types serve',
-  devCommand: 'npx serve -s -l 3000 .'
+  devCommand: 'PORT=${PORT:-3000} npx serve -s -l $PORT .'
 });
